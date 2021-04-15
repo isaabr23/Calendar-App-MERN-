@@ -26,7 +26,7 @@ app.use( express.json() );
 app.use('/api/auth', require('./routes/auth'));
 app.use('/api/events', require('./routes/events'));
 
-// Escuchar peticiones
+// Escuchar peticiones / este es el mensje que sale en la terminal de Servidor corriendo en puerto 4000
 app.listen( process.env.PORT, () => {
     console.log(`Servidor corriendo en puerto ${process.env.PORT}`);
 });
