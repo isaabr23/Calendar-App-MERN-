@@ -20,3 +20,7 @@ git status - para ver que archivos estan modificados
 git add .
 git commit -m "actualizando auth.js" - hacemos el commit
 git push heroku master - Para subirlo a heroku
+
+# En heroku lo podemos ver cargado a un servidor externo
+
+https://mern-calendar-12.herokuapp.com/login
